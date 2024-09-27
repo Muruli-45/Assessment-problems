@@ -1,0 +1,6 @@
+a1=list(map(int,input().split()))
+a2=list(map(int,input().split()))
+i=sorted(list(set(a1) & set(a2)))
+union=sorted(list(set(a1)| set(a2)))
+print(i)
+print(union)
